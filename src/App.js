@@ -7,6 +7,7 @@ import finishimg from "../src/images/finish.jpg";
 export default function App() {
   let [currentQIndex, setCurrentQIndex] = useState(0);
   let [selectedOptionIndex, setSelectedOptionIndex] = useState(null);
+  let [score , setScore]= useState(0)
 
   const nextQuestion = () => {
     setSelectedOptionIndex(null);
@@ -25,6 +26,8 @@ export default function App() {
 
   const onSelectedOption = (selectedOptionIndex) => {
     setSelectedOptionIndex(selectedOptionIndex);
+     if (selectedOptionIndex === questions[selectedOptionIndex].correctOptionIndex)
+    setScore(score +1)
    
   };
 
@@ -43,7 +46,9 @@ export default function App() {
               <p className="card-text" style={{ fontSize: "20px" }}>
                 Your Quiz is submitted successfuly
               </p>
-
+  <h4>
+              {score} out of {questions.length}
+            </h4>
               <button className="btn btn-primary" onClick={restartQuiz}>
                 Try Again
               </button>
