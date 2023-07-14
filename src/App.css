@@ -1,0 +1,24 @@
+.card-design {
+  text-align: center;
+  width: 50%;
+  margin-top: 3%;
+  background-color: ivory;
+  /* display: flex; */
+}
+.btn-design{
+  display: flex;
+  justify-content: space-between;
+}
+.option-correct{
+  background-color: green;
+}
+.option-wrong{
+  background-color: red;
+}
+.card-image{
+  display: 'flex';
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+
+}

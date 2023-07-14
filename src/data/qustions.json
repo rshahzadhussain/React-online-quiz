@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "category": "computer knowledge",
+        "icon": "images/computer.jpg",
+        "statement": "Who is known as the father of computer ?",
+        "options" : [
+            "Dennis Ritche",
+            "Bill Gates",
+            "Charles Babbage",
+            "James Gosling"
+        ],
+        "correctOptionIndex":2
+    },
+    {
+        "id":2,
+        "category": "computer knowledge",
+        "icon": "images/brain.png",
+        "statement": "What is the brain of a computer system called ?",
+        "options" : [
+            "RAM",
+            "CPU",
+            "GPU",
+            "None of the above"
+        ],
+        "correctOptionIndex":1
+    },
+    {
+        "id":3,
+        "category": "computer knowledge",
+        "icon": "images/cpu.jpg",
+        "statement": "What does CPU stands for ?",
+        "options" : [
+            "Central Processing Unit",
+            "Control Processing Unit",
+            "Computer Processing Unit",
+            "Computer Programing Unit"
+        ],
+        "correctOptionIndex":0
+    },
+    {
+        "id":4,
+        "category": "computer knowledge",
+        "icon": "images/parts.png",
+        "statement": "Which of the following is included in computer system ?",
+        "options" : [
+            "Hardware",
+            "Peripheral Devices",
+            "Software",
+            "All of the above"
+        ],
+        "correctOptionIndex":3
+    },
+    {
+        "id":5,
+        "category": "computer knowledge",
+        "icon": "images/memory.png",
+        "statement": "What is known as temporary memory or volatile memory ?",
+        "options" : [
+            "SSD",
+            "HDD",
+            "RAM",
+            "ROM"
+        ],
+        "correctOptionIndex":2
+    }
+
+]
