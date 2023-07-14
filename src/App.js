@@ -26,7 +26,7 @@ export default function App() {
 
   const onSelectedOption = (selectedOptionIndex) => {
     setSelectedOptionIndex(selectedOptionIndex);
-     if (selectedOptionIndex === questions[selectedOptionIndex].correctOptionIndex)
+     if (selectedOptionIndex === questions[currentQIndex].correctOptionIndex)
     setScore(score +1)
    
   };
